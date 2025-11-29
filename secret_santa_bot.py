@@ -7,7 +7,7 @@ import os
 BOT_TOKEN = os.getenv("7678743643:AAH2ncgI51mpyFrwr_tQEZFWc1Rn6_nsnbo")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "1222859648"))             # сюда твой Telegram ID (организатор)
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot("7678743643:AAH2ncgI51mpyFrwr_tQEZFWc1Rn6_nsnbo")
 
 PARTICIPANTS = [
     "Дильноза",
